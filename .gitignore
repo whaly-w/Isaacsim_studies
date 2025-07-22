@@ -8,6 +8,3 @@ Isaacsim_ros2_assets/backups
 # Ignore private work folders
 Scripts/0_Package/
 Isaacsim_ros2_ws/
-
-# Ignore .gitignore
-*.gitignore
