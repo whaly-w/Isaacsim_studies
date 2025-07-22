@@ -10,4 +10,4 @@ Scripts/0_Package/
 Isaacsim_ros2_ws/
 
 # Ignore .gitignore
-.gitignore
+*.gitignore
