@@ -1,4 +1,6 @@
 # Tutorials for basic usage of standalone python
+## Overall
+The files is seperated into two series *Class01 - 06* and *Class11 - 15*
 
 ## Installation
 - Download IsaacSim workstation follow [this instruction](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/download.html)
