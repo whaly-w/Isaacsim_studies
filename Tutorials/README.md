@@ -6,13 +6,24 @@
 - Setup local assets follow [this instruction](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/install_faq.html#isaac-sim-setup-assets-content-pack)
 
 ## Utilization
-Either activate environment or use python.sh to run each stanalone .py file
+Either activate virtual environment or use python.sh to run each stanalone .py file
 ```bash
-# with env
-./python.sh Tutorials/Class01_Introduction.py 
+# with env, assuming the env is called "env_isaaclab"
+conda activate env_isaaclab
+python Tutorials/Class01_Introduction.py 
 
 # without env
 ./python.sh Tutorials/Class01_Introduction.py 
+```
+To open IsaacSim workstation, either 
+```bash
+# with env
+isaacsim
+
+# without env, open workstaion right away
+./isaac-sim.sh 
+# manage setup before launching workstation
+./isaac-sim.selector.sh 
 ```
 
 ## Notes
