@@ -1,0 +1,10 @@
+# Ignore heavy assets folder
+IsaacLab/
+Isaacsim_assets/
+Isaacsim_ros2_assets/ROS_TF/
+Isaacsim_ros2_assets/Isaacsim_ros2_ws/
+Isaacsim_ros2_assets/backups
+
+# Ignore private work folders
+Scripts/0_Package/
+Isaacsim_ros2_ws/
