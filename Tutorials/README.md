@@ -27,5 +27,5 @@ isaacsim
 ```
 
 ## Notes
-- IsaacSim pip version require and **environment** like [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install)
-- ROS2 bridge might not work in IsaacSim pip version 
+- IsaacSim pip version require and **virtual environment** like [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install)
+- **ROS2 bridge** might not work in IsaacSim pip version 
