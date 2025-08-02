@@ -1,0 +1,6 @@
+{
+  "package_name": "h1_msgs",
+  "non_idl_tuples": [
+    "/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/h1_msgs:msg/ProtoOdom.msg"
+  ]
+}

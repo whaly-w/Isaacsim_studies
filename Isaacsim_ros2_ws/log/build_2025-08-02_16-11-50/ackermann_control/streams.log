@@ -1,0 +1,24 @@
+[0.619s] Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control/build --no-deps symlink_data
+[0.799s] running develop
+[0.898s] running egg_info
+[0.898s] creating ackermann_control.egg-info
+[0.899s] writing ackermann_control.egg-info/PKG-INFO
+[0.899s] writing dependency_links to ackermann_control.egg-info/dependency_links.txt
+[0.899s] writing entry points to ackermann_control.egg-info/entry_points.txt
+[0.899s] writing requirements to ackermann_control.egg-info/requires.txt
+[0.899s] writing top-level names to ackermann_control.egg-info/top_level.txt
+[0.899s] writing manifest file 'ackermann_control.egg-info/SOURCES.txt'
+[0.900s] reading manifest file 'ackermann_control.egg-info/SOURCES.txt'
+[0.901s] writing manifest file 'ackermann_control.egg-info/SOURCES.txt'
+[0.902s] running build_ext
+[0.902s] Creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/lib/python3.10/site-packages/ackermann-control.egg-link (link to .)
+[0.902s] Installing cmdvel_to_ackermann script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/lib/ackermann_control
+[0.903s] 
+[0.903s] Installed /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control
+[0.903s] running symlink_data
+[0.903s] creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ament_index
+[0.903s] creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ament_index/resource_index
+[0.903s] creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ament_index/resource_index/packages
+[0.903s] symbolically linking /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control/resource/ackermann_control -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ament_index/resource_index/packages
+[0.903s] symbolically linking /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control/package.xml -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ackermann_control
+[0.926s] Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control/build --no-deps symlink_data

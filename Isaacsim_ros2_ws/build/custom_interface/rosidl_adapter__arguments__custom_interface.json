@@ -1,0 +1,8 @@
+{
+  "package_name": "custom_interface",
+  "non_idl_tuples": [
+    "/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/custom_interface:msg/TestMsg.msg",
+    "/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/custom_interface:srv/TestSrv.srv",
+    "/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/custom_interface:srv/TestSrvEmptyInput.srv"
+  ]
+}

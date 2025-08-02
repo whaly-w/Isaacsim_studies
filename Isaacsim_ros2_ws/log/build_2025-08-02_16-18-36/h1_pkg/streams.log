@@ -1,0 +1,21 @@
+[0.584s] Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg/build --no-deps symlink_data --force
+[0.753s] running develop
+[0.854s] running egg_info
+[0.854s] writing h1_pkg.egg-info/PKG-INFO
+[0.854s] writing dependency_links to h1_pkg.egg-info/dependency_links.txt
+[0.854s] writing entry points to h1_pkg.egg-info/entry_points.txt
+[0.854s] writing requirements to h1_pkg.egg-info/requires.txt
+[0.854s] writing top-level names to h1_pkg.egg-info/top_level.txt
+[0.856s] reading manifest file 'h1_pkg.egg-info/SOURCES.txt'
+[0.856s] writing manifest file 'h1_pkg.egg-info/SOURCES.txt'
+[0.857s] running build_ext
+[0.857s] Creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/lib/python3.10/site-packages/h1-pkg.egg-link (link to .)
+[0.858s] Installing proto_odom_cal script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/lib/h1_pkg
+[0.858s] Installing proto_teleop script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/lib/h1_pkg
+[0.858s] Installing robot_feedback_control script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/lib/h1_pkg
+[0.858s] 
+[0.858s] Installed /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg
+[0.858s] running symlink_data
+[0.858s] symbolically linking /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg/resource/h1_pkg -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/share/ament_index/resource_index/packages
+[0.858s] symbolically linking /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg/package.xml -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/share/h1_pkg
+[0.879s] Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg/build --no-deps symlink_data --force

@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from h1_msgs/msg/ProtoOdom.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module h1_msgs {
+  module msg {
+    struct ProtoOdom {
+      geometry_msgs::msg::Vector3 vel;
+
+      double yaw;
+    };
+  };
+};

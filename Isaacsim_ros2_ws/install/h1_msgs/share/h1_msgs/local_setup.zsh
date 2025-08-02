@@ -1,0 +1,1 @@
+/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs/ament_cmake_environment_hooks/local_setup.zsh

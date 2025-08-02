@@ -1,0 +1,5 @@
+[console_scripts]
+ackermann_publisher = isaac_tutorials.ros2_ackermann_publisher:main
+imu_listener = isaac_tutorials.ros2_imu_subscriber:main
+joint_command_talker = isaac_tutorials.ros2_publisher:main
+

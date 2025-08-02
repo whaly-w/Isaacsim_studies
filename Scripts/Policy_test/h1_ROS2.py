@@ -124,7 +124,8 @@ h1 = H1FlatTerrainPolicy(
     name= "H1",
     usd_path= assets_root_path + "/Isaac/Robots/Unitree/H1/h1.usd",
     position= np.array([0, 0, 1.05]), 
-    orientation= euler_angles_to_quat(np.array([0, 0, np.radians(45)])),
+    # orientation= euler_angles_to_quat(np.array([0, 0, np.radians(45)])),
+    orientation= np.array([1, 0, 0, 0]),
     )
 
 # Add IMU

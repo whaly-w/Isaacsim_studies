@@ -1,0 +1,58 @@
+[0.658s] Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build
+[0.825s] running develop
+[0.919s] Removing /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test-pkg.egg-link (link to .)
+[0.937s] Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build
+[0.938s] Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/test_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build install --record /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/install.log --single-version-externally-managed install_data --force
+[1.086s] running egg_info
+[1.086s] writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO
+[1.087s] writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+[1.087s] writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt
+[1.087s] writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt
+[1.087s] writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt
+[1.088s] reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[1.088s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[1.088s] running build
+[1.088s] running build_py
+[1.089s] creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build
+[1.089s] creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib
+[1.089s] creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+[1.089s] copying test_pkg/test_subPub.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+[1.089s] copying test_pkg/__init__.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+[1.089s] copying test_pkg/test_publisher.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+[1.089s] copying test_pkg/test_service_host.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+[1.089s] copying test_pkg/test_msg.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+[1.089s] copying test_pkg/test_service_client.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+[1.089s] copying test_pkg/test_subscriber.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+[1.089s] running install
+[1.089s] running install_lib
+[1.090s] creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[1.090s] copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/test_subPub.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[1.090s] copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/__init__.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[1.091s] copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/test_publisher.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[1.091s] copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/test_service_host.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[1.091s] copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/test_msg.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[1.091s] copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/test_service_client.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[1.091s] copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/test_subscriber.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[1.091s] byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/test_subPub.py to test_subPub.cpython-310.pyc
+[1.091s] byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/__init__.py to __init__.cpython-310.pyc
+[1.091s] byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/test_publisher.py to test_publisher.cpython-310.pyc
+[1.092s] byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/test_service_host.py to test_service_host.cpython-310.pyc
+[1.092s] byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/test_msg.py to test_msg.cpython-310.pyc
+[1.092s] byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/test_service_client.py to test_service_client.cpython-310.pyc
+[1.092s] byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/test_subscriber.py to test_subscriber.cpython-310.pyc
+[1.092s] running install_data
+[1.093s] copying resource/test_pkg -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/ament_index/resource_index/packages
+[1.093s] copying package.xml -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/test_pkg
+[1.093s] copying launch/bringup_launch.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/test_pkg
+[1.093s] running install_egg_info
+[1.094s] Copying ../../build/test_pkg/test_pkg.egg-info to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info
+[1.094s] running install_scripts
+[1.109s] Installing generic_listener script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[1.109s] Installing listener script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[1.109s] Installing msg_talker script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[1.109s] Installing service_client script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[1.109s] Installing service_host script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[1.109s] Installing subPub script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[1.109s] Installing talker script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[1.109s] writing list of installed files to '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/install.log'
+[1.126s] Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/test_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build install --record /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/install.log --single-version-externally-managed install_data --force

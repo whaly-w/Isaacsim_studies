@@ -1,0 +1,222 @@
+[0.176s] Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control:/home/whaly/whaly_ws/install/whaly_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/whaly/isaac_ws/Isaacsim_ros2_ws/src/custom_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface
+[0.182s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.272s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.277s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.291s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.292s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.296s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.302s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.324s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.331s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.567s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.842s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.953s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.971s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.992s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.992s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3.10
+[0.992s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.992s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.008s] -- Found PythonExtra: .so  
+[1.062s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.074s] -- Added test 'lint_cmake' to check CMake code style
+[1.075s] -- Added test 'xmllint' to check XML markup files
+[1.077s] -- Configuring done
+[1.098s] -- Generating done
+[1.105s] -- Build files have been written to: /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface
+[1.112s] Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control:/home/whaly/whaly_ws/install/whaly_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/whaly/isaac_ws/Isaacsim_ros2_ws/src/custom_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface
+[1.112s] Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control:/home/whaly/whaly_ws/install/whaly_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface -- -j16 -l16
+[1.136s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.143s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.148s] [  5%] Built target ament_cmake_python_symlink_custom_interface
+[1.289s] running egg_info
+[1.299s] creating custom_interface.egg-info
+[1.299s] writing custom_interface.egg-info/PKG-INFO
+[1.299s] writing dependency_links to custom_interface.egg-info/dependency_links.txt
+[1.300s] writing top-level names to custom_interface.egg-info/top_level.txt
+[1.300s] writing manifest file 'custom_interface.egg-info/SOURCES.txt'
+[1.332s] reading manifest file 'custom_interface.egg-info/SOURCES.txt'
+[1.333s] writing manifest file 'custom_interface.egg-info/SOURCES.txt'
+[1.353s] [  7%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/srv/detail/test_srv__functions.c.o[0m
+[1.353s] [ 10%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/msg/detail/test_msg__functions.c.o[0m
+[1.357s] [ 10%] Built target custom_interface__cpp
+[1.365s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.365s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.366s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.371s] [ 17%] Built target ament_cmake_python_build_custom_interface_egg
+[1.409s] [ 20%] [32m[1mLinking C shared library libcustom_interface__rosidl_generator_c.so[0m
+[1.435s] [ 20%] Built target custom_interface__rosidl_generator_c
+[1.442s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.443s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.444s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.551s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/msg/test_msg__type_support.cpp.o[0m
+[1.552s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/srv/test_srv__type_support.cpp.o[0m
+[1.578s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/msg/detail/dds_fastrtps/test_msg__type_support.cpp.o[0m
+[1.580s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/srv/detail/dds_fastrtps/test_srv__type_support.cpp.o[0m
+[1.629s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/msg/detail/test_msg__type_support.cpp.o[0m
+[1.631s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/srv/detail/test_srv__type_support.cpp.o[0m
+[1.638s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface/msg/test_msg__type_support.cpp.o[0m
+[1.638s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface/srv/test_srv__type_support.cpp.o[0m
+[1.658s] [ 51%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface/msg/detail/test_msg__type_support_c.cpp.o[0m
+[1.659s] [ 53%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface/srv/detail/test_srv__type_support_c.cpp.o[0m
+[1.671s] [ 56%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_c.so[0m
+[1.714s] [ 56%] Built target custom_interface__rosidl_typesupport_c
+[1.720s] [ 61%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface/msg/detail/test_msg__type_support.c.o[0m
+[1.721s] [ 61%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface/srv/detail/test_srv__type_support.c.o[0m
+[1.754s] [ 64%] [32m[1mLinking C shared library libcustom_interface__rosidl_typesupport_introspection_c.so[0m
+[1.755s] [ 66%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_cpp.so[0m
+[1.775s] [ 66%] Built target custom_interface__rosidl_typesupport_introspection_c
+[1.781s] [ 66%] Built target custom_interface__rosidl_typesupport_cpp
+[1.933s] [ 69%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.935s] [ 71%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_c.so[0m
+[1.939s] [ 74%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_introspection_cpp.so[0m
+[1.980s] [ 74%] Built target custom_interface__rosidl_typesupport_introspection_cpp
+[1.983s] [ 74%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp
+[1.985s] [ 74%] Built target custom_interface__rosidl_typesupport_fastrtps_c
+[1.996s] [ 74%] Built target custom_interface
+[2.008s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.302s] [ 76%] Built target custom_interface__py
+[2.314s] [ 79%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_py.dir/rosidl_generator_py/custom_interface/msg/_test_msg_s.c.o[0m
+[2.315s] [ 82%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_py.dir/rosidl_generator_py/custom_interface/srv/_test_srv_s.c.o[0m
+[2.383s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/libcustom_interface__rosidl_generator_py.so[0m
+[2.409s] [ 84%] Built target custom_interface__rosidl_generator_py
+[2.421s] [ 87%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[2.422s] [ 89%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.422s] [ 92%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.488s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.488s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.490s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.514s] [100%] Built target custom_interface__rosidl_typesupport_fastrtps_c__pyext
+[2.516s] [100%] Built target custom_interface__rosidl_typesupport_c__pyext
+[2.519s] [100%] Built target custom_interface__rosidl_typesupport_introspection_c__pyext
+[2.526s] Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control:/home/whaly/whaly_ws/install/whaly_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface -- -j16 -l16
+[2.527s] Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control:/home/whaly/whaly_ws/install/whaly_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface
+[2.532s] -- Install configuration: ""
+[2.532s] -- Execute custom install script
+[2.532s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/ament_index/resource_index/rosidl_interfaces/custom_interface
+[2.537s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/test_msg__functions.h
+[2.543s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/test_msg__struct.h
+[2.548s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/test_msg__type_support.h
+[2.553s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_generator_c__visibility_control.h
+[2.558s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/test_msg.h
+[2.562s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/test_srv__functions.h
+[2.567s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/test_srv__struct.h
+[2.572s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/test_srv__type_support.h
+[2.577s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/test_srv.h
+[2.582s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/environment/library_path.sh
+[2.587s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/environment/library_path.dsv
+[2.592s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/test_msg__rosidl_typesupport_fastrtps_c.h
+[2.597s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.602s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/test_srv__rosidl_typesupport_fastrtps_c.h
+[2.607s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/test_msg__builder.hpp
+[2.612s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/test_msg__struct.hpp
+[2.617s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/test_msg__traits.hpp
+[2.622s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/test_msg__type_support.hpp
+[2.627s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.632s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/test_msg.hpp
+[2.638s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/test_srv__builder.hpp
+[2.643s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/test_srv__struct.hpp
+[2.648s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/test_srv__traits.hpp
+[2.655s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/test_srv__type_support.hpp
+[2.660s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/test_srv.hpp
+[2.665s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/test_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[2.670s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.675s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/test_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[2.681s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/test_msg__rosidl_typesupport_introspection_c.h
+[2.687s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.692s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/test_srv__rosidl_typesupport_introspection_c.h
+[2.698s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/detail/test_msg__rosidl_typesupport_introspection_cpp.hpp
+[2.703s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/test_srv__rosidl_typesupport_introspection_cpp.hpp
+[2.708s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/environment/pythonpath.sh
+[2.713s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/environment/pythonpath.dsv
+[2.719s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface-0.0.0-py3.13.egg-info/PKG-INFO
+[2.724s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface-0.0.0-py3.13.egg-info/SOURCES.txt
+[2.730s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface-0.0.0-py3.13.egg-info/dependency_links.txt
+[2.735s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface-0.0.0-py3.13.egg-info/top_level.txt
+[2.741s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/__init__.py
+[2.746s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c
+[2.751s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.757s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c
+[2.762s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.767s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.772s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.777s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/libcustom_interface__rosidl_generator_py.so
+[2.782s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/msg/__init__.py
+[2.787s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/msg/_test_msg.py
+[2.792s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/msg/_test_msg_s.c
+[2.797s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/srv/__init__.py
+[2.801s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/srv/_test_srv.py
+[2.806s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/srv/_test_srv_s.c
+[2.811s] -- Up-to-date symlink: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.812s] -- Up-to-date symlink: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.812s] -- Up-to-date symlink: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.812s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/msg/TestMsg.idl
+[2.817s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/srv/TestSrv.idl
+[2.822s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/msg/TestMsg.msg
+[2.827s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/srv/TestSrv.srv
+[2.833s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/srv/TestSrv_Request.msg
+[2.838s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/srv/TestSrv_Response.msg
+[2.844s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/ament_index/resource_index/package_run_dependencies/custom_interface
+[2.851s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/ament_index/resource_index/parent_prefix_path/custom_interface
+[2.856s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/environment/ament_prefix_path.sh
+[2.861s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/environment/ament_prefix_path.dsv
+[2.866s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/environment/path.sh
+[2.871s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/environment/path.dsv
+[2.876s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/local_setup.bash
+[2.881s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/local_setup.sh
+[2.886s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/local_setup.zsh
+[2.891s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/local_setup.dsv
+[2.896s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/package.dsv
+[2.902s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/ament_index/resource_index/packages/custom_interface
+[2.907s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake-extras.cmake
+[2.912s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.917s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.922s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.928s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_targets-extras.cmake
+[2.933s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.938s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.943s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig.cmake
+[2.948s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig-version.cmake
+[2.953s] -- Symlinking: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/package.xml
+[2.958s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so
+[2.958s] -- Set runtime path of "/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so" to ""
+[2.958s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so
+[2.958s] -- Set runtime path of "/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[2.958s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so
+[2.958s] -- Set runtime path of "/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.958s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so
+[2.959s] -- Set runtime path of "/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so" to ""
+[2.959s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so
+[2.959s] -- Set runtime path of "/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so" to ""
+[2.959s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so
+[2.959s] -- Set runtime path of "/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[2.959s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so
+[2.959s] -- Set runtime path of "/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so" to ""
+[2.985s] Listing '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface'...
+[2.986s] Compiling '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/__init__.py'...
+[2.986s] Listing '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/msg'...
+[2.986s] Compiling '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/msg/__init__.py'...
+[2.986s] Compiling '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/msg/_test_msg.py'...
+[2.986s] Listing '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/srv'...
+[2.986s] Compiling '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/srv/__init__.py'...
+[2.986s] Compiling '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.13/site-packages/custom_interface/srv/_test_srv.py'...
+[2.989s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_py.so
+[2.989s] -- Set runtime path of "/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_py.so" to ""
+[2.989s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cExport.cmake
+[2.989s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cExport-noconfig.cmake
+[2.989s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[2.989s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.989s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cppExport.cmake
+[2.990s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.990s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.990s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport.cmake
+[2.990s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.990s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport.cmake
+[2.990s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport-noconfig.cmake
+[2.990s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport.cmake
+[2.990s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.990s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport.cmake
+[2.990s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[2.990s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_pyExport.cmake
+[2.990s] -- Installing: /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_pyExport-noconfig.cmake
+[3.027s] Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control:/home/whaly/whaly_ws/install/whaly_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface

@@ -1,0 +1,454 @@
+[0.081s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.081s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x790ee3357550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x790ee3357100>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x790ee3357100>>)
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.184s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/whaly/isaac_ws/Isaacsim_ros2_ws'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_control' with type 'ros.ament_python' and name 'ackermann_control'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interface' with type 'ros.ament_cmake' and name 'custom_interface'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_msgs) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_msgs) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_msgs) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_msgs) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_msgs) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_msgs) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_msgs) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_msgs) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/h1_msgs' with type 'ros.ament_cmake' and name 'h1_msgs'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_pkg) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_pkg) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_pkg) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_pkg) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_pkg) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_pkg) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_pkg) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_pkg) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/h1_pkg' with type 'ros.ament_python' and name 'h1_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/isaac_tutorials) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/isaac_tutorials' with type 'ros.ament_python' and name 'isaac_tutorials'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_pkg' with type 'ros.ament_python' and name 'test_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.220s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.220s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.221s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/whaly/whaly_ws/install
+[0.221s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/whaly/isaac_ws/Isaacsim_ros2_ws/install
+[0.222s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control', 'merge_install': False, 'path': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/ackermann_control', 'symlink_install': True, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'custom_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface', 'merge_install': False, 'path': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/custom_interface', 'symlink_install': True, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'h1_msgs' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'h1_msgs' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'h1_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'h1_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'h1_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'h1_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'h1_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'h1_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'h1_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'h1_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs', 'merge_install': False, 'path': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/h1_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials', 'merge_install': False, 'path': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/isaac_tutorials', 'symlink_install': True, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'h1_pkg' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'h1_pkg' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'h1_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'h1_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'h1_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'h1_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'h1_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'h1_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'h1_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'h1_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg', 'merge_install': False, 'path': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/h1_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'test_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg', 'merge_install': False, 'path': '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/test_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.246s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.247s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/h1_msgs' with build type 'ament_cmake'
+[0.248s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/h1_msgs'
+[0.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.252s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/ackermann_control' with build type 'ament_python'
+[0.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_control', 'ament_prefix_path')
+[0.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ackermann_control/hook/ament_prefix_path.ps1'
+[0.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ackermann_control/hook/ament_prefix_path.dsv'
+[0.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ackermann_control/hook/ament_prefix_path.sh'
+[0.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.255s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/custom_interface' with build type 'ament_cmake'
+[0.255s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/custom_interface'
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.258s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/isaac_tutorials' with build type 'ament_python'
+[0.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_tutorials', 'ament_prefix_path')
+[0.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/share/isaac_tutorials/hook/ament_prefix_path.ps1'
+[0.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/share/isaac_tutorials/hook/ament_prefix_path.dsv'
+[0.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/share/isaac_tutorials/hook/ament_prefix_path.sh'
+[0.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control:/home/whaly/whaly_ws/install/whaly_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs -- -j16 -l16
+[0.450s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/ackermann_control'
+[0.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.451s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control:/home/whaly/whaly_ws/install/whaly_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface -- -j16 -l16
+[0.639s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/isaac_tutorials'
+[0.640s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.640s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control:/home/whaly/whaly_ws/install/whaly_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs -- -j16 -l16
+[0.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control:/home/whaly/whaly_ws/install/whaly_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs
+[0.701s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(h1_msgs)
+[0.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control:/home/whaly/whaly_ws/install/whaly_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs' for CMake module files
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs' for CMake config files
+[0.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('h1_msgs', 'cmake_prefix_path')
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/hook/cmake_prefix_path.ps1'
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/hook/cmake_prefix_path.dsv'
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/hook/cmake_prefix_path.sh'
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/lib'
+[0.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('h1_msgs', 'ld_library_path_lib')
+[0.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/hook/ld_library_path_lib.ps1'
+[0.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/hook/ld_library_path_lib.dsv'
+[0.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/hook/ld_library_path_lib.sh'
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/bin'
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/lib/pkgconfig/h1_msgs.pc'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/lib/python3.10/site-packages'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/bin'
+[0.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/package.ps1'
+[0.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/package.dsv'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/package.sh'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/package.bash'
+[0.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/package.zsh'
+[0.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/colcon-core/packages/h1_msgs)
+[0.714s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(h1_msgs)
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs' for CMake module files
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs' for CMake config files
+[0.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('h1_msgs', 'cmake_prefix_path')
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/hook/cmake_prefix_path.ps1'
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/hook/cmake_prefix_path.dsv'
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/hook/cmake_prefix_path.sh'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/lib'
+[0.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('h1_msgs', 'ld_library_path_lib')
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/hook/ld_library_path_lib.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/hook/ld_library_path_lib.dsv'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/hook/ld_library_path_lib.sh'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/bin'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/lib/pkgconfig/h1_msgs.pc'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/lib/python3.10/site-packages'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/bin'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/package.ps1'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/package.dsv'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/package.sh'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/package.bash'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/h1_msgs/package.zsh'
+[0.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_msgs/share/colcon-core/packages/h1_msgs)
+[0.722s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/h1_pkg' with build type 'ament_python'
+[0.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('h1_pkg', 'ament_prefix_path')
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/share/h1_pkg/hook/ament_prefix_path.ps1'
+[0.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/share/h1_pkg/hook/ament_prefix_path.dsv'
+[0.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/share/h1_pkg/hook/ament_prefix_path.sh'
+[0.724s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.724s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.727s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/test_pkg' with build type 'ament_python'
+[0.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'ament_prefix_path')
+[0.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/test_pkg/hook/ament_prefix_path.ps1'
+[0.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/test_pkg/hook/ament_prefix_path.dsv'
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/test_pkg/hook/ament_prefix_path.sh'
+[0.729s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.729s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.935s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/h1_pkg'
+[0.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.100s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/test_pkg'
+[1.100s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.100s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control/build --no-deps symlink_data
+[1.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials/build --no-deps symlink_data
+[1.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control:/home/whaly/whaly_ws/install/whaly_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface -- -j16 -l16
+[1.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control:/home/whaly/whaly_ws/install/whaly_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface
+[1.157s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface)
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface' for CMake module files
+[1.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control:/home/whaly/whaly_ws/install/whaly_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface' for CMake config files
+[1.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'cmake_prefix_path')
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.ps1'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.dsv'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.sh'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib'
+[1.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'ld_library_path_lib')
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.ps1'
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.dsv'
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.sh'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/bin'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/pkgconfig/custom_interface.pc'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.10/site-packages'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/bin'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/package.ps1'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/package.dsv'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/package.sh'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/package.bash'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/package.zsh'
+[1.165s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/colcon-core/packages/custom_interface)
+[1.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface)
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface' for CMake module files
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface' for CMake config files
+[1.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'cmake_prefix_path')
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.ps1'
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.dsv'
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/hook/cmake_prefix_path.sh'
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib'
+[1.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface', 'ld_library_path_lib')
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.ps1'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.dsv'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/hook/ld_library_path_lib.sh'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/bin'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/pkgconfig/custom_interface.pc'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/lib/python3.10/site-packages'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/bin'
+[1.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/package.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/package.dsv'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/package.sh'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/package.bash'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/custom_interface/package.zsh'
+[1.173s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/custom_interface/share/colcon-core/packages/custom_interface)
+[1.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build --no-deps symlink_data
+[1.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg/build --no-deps symlink_data
+[1.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_control', 'pythonpath_develop')
+[1.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control/share/ackermann_control/hook/pythonpath_develop.ps1'
+[1.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control/build --no-deps symlink_data
+[1.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control/share/ackermann_control/hook/pythonpath_develop.dsv'
+[1.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/ackermann_control/share/ackermann_control/hook/pythonpath_develop.sh'
+[1.399s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control' for CMake module files
+[1.399s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control' for CMake config files
+[1.399s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/lib'
+[1.399s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/bin'
+[1.400s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/lib/pkgconfig/ackermann_control.pc'
+[1.400s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/lib/python3.10/site-packages'
+[1.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_control', 'pythonpath')
+[1.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ackermann_control/hook/pythonpath.ps1'
+[1.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ackermann_control/hook/pythonpath.dsv'
+[1.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ackermann_control/hook/pythonpath.sh'
+[1.401s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/bin'
+[1.401s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_control)
+[1.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ackermann_control/package.ps1'
+[1.401s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ackermann_control/package.dsv'
+[1.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ackermann_control/package.sh'
+[1.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ackermann_control/package.bash'
+[1.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/ackermann_control/package.zsh'
+[1.402s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/ackermann_control/share/colcon-core/packages/ackermann_control)
+[1.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_tutorials', 'pythonpath_develop')
+[1.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials/share/isaac_tutorials/hook/pythonpath_develop.ps1'
+[1.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials/share/isaac_tutorials/hook/pythonpath_develop.dsv'
+[1.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials/build --no-deps symlink_data
+[1.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials/share/isaac_tutorials/hook/pythonpath_develop.sh'
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials' for CMake module files
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials' for CMake config files
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/lib'
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/bin'
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/lib/pkgconfig/isaac_tutorials.pc'
+[1.404s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/lib/python3.10/site-packages'
+[1.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_tutorials', 'pythonpath')
+[1.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/share/isaac_tutorials/hook/pythonpath.ps1'
+[1.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/share/isaac_tutorials/hook/pythonpath.dsv'
+[1.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/share/isaac_tutorials/hook/pythonpath.sh'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/bin'
+[1.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_tutorials)
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/share/isaac_tutorials/package.ps1'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/share/isaac_tutorials/package.dsv'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/share/isaac_tutorials/package.sh'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/share/isaac_tutorials/package.bash'
+[1.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/share/isaac_tutorials/package.zsh'
+[1.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/share/colcon-core/packages/isaac_tutorials)
+[1.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'pythonpath_develop')
+[1.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/share/test_pkg/hook/pythonpath_develop.ps1'
+[1.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build --no-deps symlink_data
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/share/test_pkg/hook/pythonpath_develop.dsv'
+[1.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/share/test_pkg/hook/pythonpath_develop.sh'
+[1.619s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg' for CMake module files
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg' for CMake config files
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib'
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/bin'
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/pkgconfig/test_pkg.pc'
+[1.621s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages'
+[1.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'pythonpath')
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/test_pkg/hook/pythonpath.ps1'
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/test_pkg/hook/pythonpath.dsv'
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/test_pkg/hook/pythonpath.sh'
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/bin'
+[1.622s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_pkg)
+[1.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/test_pkg/package.ps1'
+[1.623s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/test_pkg/package.dsv'
+[1.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/test_pkg/package.sh'
+[1.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/test_pkg/package.bash'
+[1.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/test_pkg/package.zsh'
+[1.624s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/colcon-core/packages/test_pkg)
+[1.636s] Level 1:colcon.colcon_core.shell:create_environment_hook('h1_pkg', 'pythonpath_develop')
+[1.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg/build --no-deps symlink_data
+[1.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg/share/h1_pkg/hook/pythonpath_develop.ps1'
+[1.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg/share/h1_pkg/hook/pythonpath_develop.dsv'
+[1.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_pkg/share/h1_pkg/hook/pythonpath_develop.sh'
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg' for CMake module files
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg' for CMake config files
+[1.639s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/lib'
+[1.639s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/bin'
+[1.639s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/lib/pkgconfig/h1_pkg.pc'
+[1.639s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/lib/python3.10/site-packages'
+[1.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('h1_pkg', 'pythonpath')
+[1.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/share/h1_pkg/hook/pythonpath.ps1'
+[1.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/share/h1_pkg/hook/pythonpath.dsv'
+[1.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/share/h1_pkg/hook/pythonpath.sh'
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/bin'
+[1.640s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(h1_pkg)
+[1.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/share/h1_pkg/package.ps1'
+[1.640s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/share/h1_pkg/package.dsv'
+[1.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/share/h1_pkg/package.sh'
+[1.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/share/h1_pkg/package.bash'
+[1.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/share/h1_pkg/package.zsh'
+[1.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_pkg/share/colcon-core/packages/h1_pkg)
+[1.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.642s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.646s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.652s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.653s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/local_setup.ps1'
+[1.653s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/_local_setup_util_ps1.py'
+[1.654s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/setup.ps1'
+[1.655s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/local_setup.sh'
+[1.655s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/_local_setup_util_sh.py'
+[1.656s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/setup.sh'
+[1.657s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/local_setup.bash'
+[1.657s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/setup.bash'
+[1.658s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/local_setup.zsh'
+[1.658s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/setup.zsh'

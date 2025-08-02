@@ -1,0 +1,28 @@
+from setuptools import find_packages, setup
+
+package_name = 'isaac_tutorials'
+
+setup(
+    name=package_name,
+    version='0.0.0',
+    packages=find_packages(exclude=['test']),
+    data_files=[
+        ('share/ament_index/resource_index/packages',
+            ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
+    ],
+    install_requires=['setuptools'],
+    zip_safe=True,
+    maintainer='whaly',
+    maintainer_email='whalyforwork@gmail.com',
+    description='TODO: Package description',
+    license='TODO: License declaration',
+    tests_require=['pytest'],
+    entry_points={
+        'console_scripts': [
+            'joint_command_talker = isaac_tutorials.ros2_publisher:main',
+            'ackermann_publisher = isaac_tutorials.ros2_ackermann_publisher:main',
+            'imu_listener = isaac_tutorials.ros2_imu_subscriber:main',
+        ],
+    },
+)

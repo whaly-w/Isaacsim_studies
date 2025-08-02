@@ -1,0 +1,19 @@
+[0.832s] Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials/build --no-deps symlink_data
+[1.011s] running develop
+[1.142s] running egg_info
+[1.142s] writing isaac_tutorials.egg-info/PKG-INFO
+[1.142s] writing dependency_links to isaac_tutorials.egg-info/dependency_links.txt
+[1.143s] writing entry points to isaac_tutorials.egg-info/entry_points.txt
+[1.143s] writing requirements to isaac_tutorials.egg-info/requires.txt
+[1.143s] writing top-level names to isaac_tutorials.egg-info/top_level.txt
+[1.145s] reading manifest file 'isaac_tutorials.egg-info/SOURCES.txt'
+[1.146s] writing manifest file 'isaac_tutorials.egg-info/SOURCES.txt'
+[1.147s] running build_ext
+[1.147s] Creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/lib/python3.10/site-packages/isaac-tutorials.egg-link (link to .)
+[1.148s] Installing ackermann_publisher script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/lib/isaac_tutorials
+[1.148s] Installing imu_listener script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/lib/isaac_tutorials
+[1.148s] Installing joint_command_talker script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/lib/isaac_tutorials
+[1.149s] 
+[1.149s] Installed /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials
+[1.149s] running symlink_data
+[1.176s] Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/isaac_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/isaac_tutorials/build --no-deps symlink_data

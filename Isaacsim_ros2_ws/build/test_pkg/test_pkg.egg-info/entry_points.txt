@@ -1,0 +1,9 @@
+[console_scripts]
+generic_listener = test_pkg.test_generic_subscriber:main
+listener = test_pkg.test_subscriber:main
+msg_talker = test_pkg.test_msg:main
+service_client = test_pkg.test_service_client:main
+service_host = test_pkg.test_service_host:main
+subPub = test_pkg.test_subPub:main
+talker = test_pkg.test_publisher:main
+

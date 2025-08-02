@@ -1,0 +1,1 @@
+/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/rosidl_cmake/rosidl_cmake-extras.cmake
