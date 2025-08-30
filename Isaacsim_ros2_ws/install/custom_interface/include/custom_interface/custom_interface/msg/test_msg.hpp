@@ -1,1 +1,12 @@
-/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/rosidl_generator_cpp/custom_interface/msg/test_msg.hpp
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef CUSTOM_INTERFACE__MSG__TEST_MSG_HPP_
+#define CUSTOM_INTERFACE__MSG__TEST_MSG_HPP_
+
+#include "custom_interface/msg/detail/test_msg__struct.hpp"
+#include "custom_interface/msg/detail/test_msg__builder.hpp"
+#include "custom_interface/msg/detail/test_msg__traits.hpp"
+#include "custom_interface/msg/detail/test_msg__type_support.hpp"
+
+#endif  // CUSTOM_INTERFACE__MSG__TEST_MSG_HPP_

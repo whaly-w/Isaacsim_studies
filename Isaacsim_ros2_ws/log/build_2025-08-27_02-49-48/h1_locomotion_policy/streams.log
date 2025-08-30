@@ -1,0 +1,23 @@
+[1.236s] Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/h1_lococmotion_policy': PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_locomotion_policy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_locomotion_policy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/h1_locomotion_policy build --build-base /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_locomotion_policy/build install --record /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_locomotion_policy/install.log --single-version-externally-managed install_data
+[1.435s] running egg_info
+[1.435s] writing ../../build/h1_locomotion_policy/h1_locomotion_policy.egg-info/PKG-INFO
+[1.435s] writing dependency_links to ../../build/h1_locomotion_policy/h1_locomotion_policy.egg-info/dependency_links.txt
+[1.435s] writing entry points to ../../build/h1_locomotion_policy/h1_locomotion_policy.egg-info/entry_points.txt
+[1.435s] writing requirements to ../../build/h1_locomotion_policy/h1_locomotion_policy.egg-info/requires.txt
+[1.435s] writing top-level names to ../../build/h1_locomotion_policy/h1_locomotion_policy.egg-info/top_level.txt
+[1.437s] reading manifest file '../../build/h1_locomotion_policy/h1_locomotion_policy.egg-info/SOURCES.txt'
+[1.437s] writing manifest file '../../build/h1_locomotion_policy/h1_locomotion_policy.egg-info/SOURCES.txt'
+[1.438s] running build
+[1.438s] running build_py
+[1.438s] running install
+[1.438s] running install_lib
+[1.439s] running install_data
+[1.439s] creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_locomotion_policy/share/h1_locomotion_policy/policy
+[1.439s] copying policy/h1_policy.pt -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_locomotion_policy/share/h1_locomotion_policy/policy
+[1.439s] running install_egg_info
+[1.441s] removing '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_locomotion_policy/lib/python3.10/site-packages/h1_locomotion_policy-0.0.0-py3.10.egg-info' (and everything under it)
+[1.441s] Copying ../../build/h1_locomotion_policy/h1_locomotion_policy.egg-info to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_locomotion_policy/lib/python3.10/site-packages/h1_locomotion_policy-0.0.0-py3.10.egg-info
+[1.441s] running install_scripts
+[1.458s] Installing h1_controller script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_locomotion_policy/lib/h1_locomotion_policy
+[1.458s] writing list of installed files to '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_locomotion_policy/install.log'
+[1.479s] Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/h1_lococmotion_policy' returned '0': PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_locomotion_policy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/h1_locomotion_policy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/h1_locomotion_policy build --build-base /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_locomotion_policy/build install --record /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_locomotion_policy/install.log --single-version-externally-managed install_data

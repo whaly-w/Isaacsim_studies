@@ -315,17 +315,17 @@ h1_msgs__rosidl_typesupport_cpp/fast:
 .PHONY : h1_msgs__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_h1_msgs
+# Target rules for targets named ament_cmake_python_copy_h1_msgs
 
 # Build rule for target.
-ament_cmake_python_symlink_h1_msgs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_h1_msgs
-.PHONY : ament_cmake_python_symlink_h1_msgs
+ament_cmake_python_copy_h1_msgs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_h1_msgs
+.PHONY : ament_cmake_python_copy_h1_msgs
 
 # fast build rule for target.
-ament_cmake_python_symlink_h1_msgs/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_h1_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_h1_msgs.dir/build
-.PHONY : ament_cmake_python_symlink_h1_msgs/fast
+ament_cmake_python_copy_h1_msgs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_h1_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_h1_msgs.dir/build
+.PHONY : ament_cmake_python_copy_h1_msgs/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_h1_msgs_egg
@@ -683,7 +683,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_h1_msgs_egg"
-	@echo "... ament_cmake_python_symlink_h1_msgs"
+	@echo "... ament_cmake_python_copy_h1_msgs"
 	@echo "... h1_msgs"
 	@echo "... h1_msgs__cpp"
 	@echo "... h1_msgs__py"

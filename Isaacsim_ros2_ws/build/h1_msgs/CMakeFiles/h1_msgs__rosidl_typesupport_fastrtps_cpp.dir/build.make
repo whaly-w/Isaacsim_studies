@@ -141,7 +141,7 @@ rosidl_typesupport_fastrtps_cpp/h1_msgs/msg/detail/dds_fastrtps/proto_odom__type
 rosidl_typesupport_fastrtps_cpp/h1_msgs/msg/detail/dds_fastrtps/proto_odom__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_typesupport_fastrtps_cpp/h1_msgs/msg/detail/dds_fastrtps/proto_odom__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support for eProsima Fast-RTPS"
-	/home/whaly/miniconda3/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs/rosidl_typesupport_fastrtps_cpp__arguments.json
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs/rosidl_typesupport_fastrtps_cpp__arguments.json
 
 rosidl_typesupport_fastrtps_cpp/h1_msgs/msg/detail/proto_odom__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/h1_msgs/msg/detail/dds_fastrtps/proto_odom__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/h1_msgs/msg/detail/proto_odom__rosidl_typesupport_fastrtps_cpp.hpp

@@ -15,20 +15,24 @@ import numpy as np
 # Create a world + setups
 world = World()
 world.scene.add_default_ground_plane()
+
+# world.scene.add() returns an object associated with the input argument 
+# which for DynamicCuboid would be an isaacsim.core.prim.XFormPrim
 fancy_cube =  world.scene.add(
     DynamicCuboid(
         prim_path="/World/random_cube",
         name="fancy_cube",
-        position=np.array([0, 0, 1.0]),
+        position=np.array([0, 0, 1.5]),
         scale=np.array([0.5015, 0.5015, 0.5015]),
         color=np.array([0, 0, 1.0]),
     ))
 
-# Reset environments
+# Reset environments & initialize physcis
 world.reset()
 
 # Start infinite loop
 while True:
+    # Using methods in XFormPrim class to get object states (https://docs.isaacsim.omniverse.nvidia.com/latest/py/source/extensions/isaacsim.core.prims/docs/index.html#isaacsim.core.prims.SingleXFormPrim)
     position, orientation = fancy_cube.get_world_pose()
     linear_velocity = fancy_cube.get_linear_velocity()
     

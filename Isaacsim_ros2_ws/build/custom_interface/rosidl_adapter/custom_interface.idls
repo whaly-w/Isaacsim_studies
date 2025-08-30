@@ -1,3 +1,5 @@
 /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/rosidl_adapter/custom_interface:msg/TestMsg.idl
 /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/rosidl_adapter/custom_interface:srv/TestSrv.idl
 /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/rosidl_adapter/custom_interface:srv/TestSrvEmptyInput.idl
+/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/rosidl_adapter/custom_interface:action/TestAction.idl
+/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/rosidl_adapter/custom_interface:action/TurtleDrawAction.idl

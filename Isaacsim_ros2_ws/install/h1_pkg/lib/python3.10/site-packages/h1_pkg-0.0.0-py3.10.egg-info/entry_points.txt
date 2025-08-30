@@ -1,0 +1,5 @@
+[console_scripts]
+proto_odom_cal = h1_pkg.proto_odom_cal:main
+proto_teleop = h1_pkg.proto_teleop:main
+robot_feedback_control = h1_pkg.robot_feedback_control:main
+

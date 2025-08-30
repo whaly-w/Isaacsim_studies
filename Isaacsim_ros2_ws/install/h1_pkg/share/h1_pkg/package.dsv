@@ -4,6 +4,3 @@ source;share/h1_pkg/hook/pythonpath.sh
 source;share/h1_pkg/hook/ament_prefix_path.ps1
 source;share/h1_pkg/hook/ament_prefix_path.dsv
 source;share/h1_pkg/hook/ament_prefix_path.sh
-source;../../build/h1_pkg/share/h1_pkg/hook/pythonpath_develop.ps1
-source;../../build/h1_pkg/share/h1_pkg/hook/pythonpath_develop.dsv
-source;../../build/h1_pkg/share/h1_pkg/hook/pythonpath_develop.sh

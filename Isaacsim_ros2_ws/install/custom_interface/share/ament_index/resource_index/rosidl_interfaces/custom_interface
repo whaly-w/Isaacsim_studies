@@ -1,1 +1,14 @@
-/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/custom_interface
+action/TestAction.action
+action/TestAction.idl
+action/TurtleDrawAction.action
+action/TurtleDrawAction.idl
+msg/TestMsg.idl
+msg/TestMsg.msg
+srv/TestSrv.idl
+srv/TestSrv.srv
+srv/TestSrvEmptyInput.idl
+srv/TestSrvEmptyInput.srv
+srv/TestSrvEmptyInput_Request.msg
+srv/TestSrvEmptyInput_Response.msg
+srv/TestSrv_Request.msg
+srv/TestSrv_Response.msg

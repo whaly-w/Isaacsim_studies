@@ -81,6 +81,16 @@ CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/srv/deta
 CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/srv/detail/test_srv_empty_input__struct.hpp
 CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/srv/detail/test_srv_empty_input__traits.hpp
 CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/srv/detail/test_srv_empty_input__type_support.hpp
+CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/test_action.hpp
+CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/test_action__builder.hpp
+CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/test_action__struct.hpp
+CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/test_action__traits.hpp
+CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/test_action__type_support.hpp
+CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/turtle_draw_action.hpp
+CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__builder.hpp
+CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__struct.hpp
+CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__traits.hpp
+CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__type_support.hpp
 CMakeFiles/custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -101,6 +111,8 @@ rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/share/ro
 rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: rosidl_adapter/custom_interface/msg/TestMsg.idl
 rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: rosidl_adapter/custom_interface/srv/TestSrv.idl
 rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: rosidl_adapter/custom_interface/srv/TestSrvEmptyInput.idl
+rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: rosidl_adapter/custom_interface/action/TestAction.idl
+rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: rosidl_adapter/custom_interface/action/TurtleDrawAction.idl
 rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -163,8 +175,15 @@ rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/share/st
 rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/custom_interface/msg/test_msg.hpp: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/home/whaly/miniconda3/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/rosidl_generator_cpp__arguments.json
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/custom_interface/msg/detail/test_msg__builder.hpp: rosidl_generator_cpp/custom_interface/msg/test_msg.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/msg/detail/test_msg__builder.hpp
@@ -208,7 +227,47 @@ rosidl_generator_cpp/custom_interface/srv/detail/test_srv_empty_input__traits.hp
 rosidl_generator_cpp/custom_interface/srv/detail/test_srv_empty_input__type_support.hpp: rosidl_generator_cpp/custom_interface/msg/test_msg.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/srv/detail/test_srv_empty_input__type_support.hpp
 
+rosidl_generator_cpp/custom_interface/action/test_action.hpp: rosidl_generator_cpp/custom_interface/msg/test_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/action/test_action.hpp
+
+rosidl_generator_cpp/custom_interface/action/detail/test_action__builder.hpp: rosidl_generator_cpp/custom_interface/msg/test_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/action/detail/test_action__builder.hpp
+
+rosidl_generator_cpp/custom_interface/action/detail/test_action__struct.hpp: rosidl_generator_cpp/custom_interface/msg/test_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/action/detail/test_action__struct.hpp
+
+rosidl_generator_cpp/custom_interface/action/detail/test_action__traits.hpp: rosidl_generator_cpp/custom_interface/msg/test_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/action/detail/test_action__traits.hpp
+
+rosidl_generator_cpp/custom_interface/action/detail/test_action__type_support.hpp: rosidl_generator_cpp/custom_interface/msg/test_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/action/detail/test_action__type_support.hpp
+
+rosidl_generator_cpp/custom_interface/action/turtle_draw_action.hpp: rosidl_generator_cpp/custom_interface/msg/test_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/action/turtle_draw_action.hpp
+
+rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__builder.hpp: rosidl_generator_cpp/custom_interface/msg/test_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__builder.hpp
+
+rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__struct.hpp: rosidl_generator_cpp/custom_interface/msg/test_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__struct.hpp
+
+rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__traits.hpp: rosidl_generator_cpp/custom_interface/msg/test_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__traits.hpp
+
+rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__type_support.hpp: rosidl_generator_cpp/custom_interface/msg/test_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__type_support.hpp
+
 custom_interface__cpp: CMakeFiles/custom_interface__cpp
+custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/test_action__builder.hpp
+custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/test_action__struct.hpp
+custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/test_action__traits.hpp
+custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/test_action__type_support.hpp
+custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__builder.hpp
+custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__struct.hpp
+custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__traits.hpp
+custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/detail/turtle_draw_action__type_support.hpp
+custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/test_action.hpp
+custom_interface__cpp: rosidl_generator_cpp/custom_interface/action/turtle_draw_action.hpp
 custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/test_msg__builder.hpp
 custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/test_msg__struct.hpp
 custom_interface__cpp: rosidl_generator_cpp/custom_interface/msg/detail/test_msg__traits.hpp

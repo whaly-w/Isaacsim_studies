@@ -33,8 +33,13 @@ setup(
             'msg_talker = test_pkg.test_msg:main',
             
             # Service nodes
-            'service_host = test_pkg.test_service_host:main',
+            'service_server = test_pkg.test_service_server:main',
             'service_client = test_pkg.test_service_client:main',
+            
+            # Action nodes
+            'action_server = test_pkg.test_action_server:main',
+            'action_client = test_pkg.test_action_client:main',
+            'turtlesim_draw_server = test_pkg.turtlesim_draw_action_server:main',
         ],
     },
 )

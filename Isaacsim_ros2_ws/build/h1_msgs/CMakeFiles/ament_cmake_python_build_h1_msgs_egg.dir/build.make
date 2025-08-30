@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_h1_msgs_egg.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_build_h1_msgs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_h1_msgs_egg:
-	cd /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs/ament_cmake_python/h1_msgs && /home/whaly/miniconda3/bin/python3 setup.py egg_info
+	cd /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs/ament_cmake_python/h1_msgs && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_h1_msgs_egg: CMakeFiles/ament_cmake_python_build_h1_msgs_egg
 ament_cmake_python_build_h1_msgs_egg: CMakeFiles/ament_cmake_python_build_h1_msgs_egg.dir/build.make

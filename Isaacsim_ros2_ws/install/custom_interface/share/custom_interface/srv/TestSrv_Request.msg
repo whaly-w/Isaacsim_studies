@@ -1,1 +1,2 @@
-/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/rosidl_cmake/srv/TestSrv_Request.msg
+int64 a
+int64 b

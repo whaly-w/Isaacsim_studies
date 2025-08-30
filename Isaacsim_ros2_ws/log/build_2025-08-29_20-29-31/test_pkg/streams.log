@@ -1,0 +1,30 @@
+[0.734s] Invoking command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/test_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build install --record /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/install.log --single-version-externally-managed install_data
+[0.911s] running egg_info
+[0.912s] writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO
+[0.920s] writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+[0.920s] writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt
+[0.920s] writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt
+[0.921s] writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt
+[0.922s] reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.923s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.923s] running build
+[0.923s] running build_py
+[0.923s] running install
+[0.924s] running install_lib
+[0.925s] running install_data
+[0.925s] running install_egg_info
+[0.926s] removing '/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.926s] Copying ../../build/test_pkg/test_pkg.egg-info to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info
+[0.927s] running install_scripts
+[0.943s] Installing action_client script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[0.943s] Installing action_server script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[0.943s] Installing generic_listener script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[0.943s] Installing listener script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[0.943s] Installing msg_talker script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[0.943s] Installing service_client script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[0.943s] Installing service_server script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[0.943s] Installing subPub script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[0.943s] Installing talker script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[0.943s] Installing turtlesim_draw_server script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+[0.943s] writing list of installed files to '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/install.log'
+[0.967s] Invoked command in '/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/test_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build install --record /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/install.log --single-version-externally-managed install_data

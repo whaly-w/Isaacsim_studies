@@ -1,3 +1,7 @@
+action/TestAction.action
+action/TestAction.idl
+action/TurtleDrawAction.action
+action/TurtleDrawAction.idl
 msg/TestMsg.idl
 msg/TestMsg.msg
 srv/TestSrv.idl

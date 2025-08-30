@@ -1,1 +1,2 @@
-/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/h1_msgs/msg/ProtoOdom.msg
+geometry_msgs/Vector3 vel
+float64 yaw

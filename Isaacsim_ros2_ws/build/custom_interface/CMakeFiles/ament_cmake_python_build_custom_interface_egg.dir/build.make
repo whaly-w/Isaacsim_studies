@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_custom_interface_egg.dir/compiler_de
 include CMakeFiles/ament_cmake_python_build_custom_interface_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_custom_interface_egg:
-	cd /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/ament_cmake_python/custom_interface && /home/whaly/miniconda3/bin/python3 setup.py egg_info
+	cd /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/ament_cmake_python/custom_interface && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_custom_interface_egg: CMakeFiles/ament_cmake_python_build_custom_interface_egg
 ament_cmake_python_build_custom_interface_egg: CMakeFiles/ament_cmake_python_build_custom_interface_egg.dir/build.make

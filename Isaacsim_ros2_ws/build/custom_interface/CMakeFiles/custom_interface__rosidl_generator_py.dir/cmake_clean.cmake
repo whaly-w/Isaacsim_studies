@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/custom_interface__rosidl_generator_py.dir/rosidl_generator_py/custom_interface/action/_test_action_s.c.o"
+  "CMakeFiles/custom_interface__rosidl_generator_py.dir/rosidl_generator_py/custom_interface/action/_test_action_s.c.o.d"
+  "CMakeFiles/custom_interface__rosidl_generator_py.dir/rosidl_generator_py/custom_interface/action/_turtle_draw_action_s.c.o"
+  "CMakeFiles/custom_interface__rosidl_generator_py.dir/rosidl_generator_py/custom_interface/action/_turtle_draw_action_s.c.o.d"
   "CMakeFiles/custom_interface__rosidl_generator_py.dir/rosidl_generator_py/custom_interface/msg/_test_msg_s.c.o"
   "CMakeFiles/custom_interface__rosidl_generator_py.dir/rosidl_generator_py/custom_interface/msg/_test_msg_s.c.o.d"
   "CMakeFiles/custom_interface__rosidl_generator_py.dir/rosidl_generator_py/custom_interface/srv/_test_srv_empty_input_s.c.o"

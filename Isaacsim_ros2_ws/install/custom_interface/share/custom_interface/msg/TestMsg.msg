@@ -1,1 +1,2 @@
-/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/custom_interface/msg/TestMsg.msg
+geometry_msgs/Vector3 test_vel
+float64 test_yaw

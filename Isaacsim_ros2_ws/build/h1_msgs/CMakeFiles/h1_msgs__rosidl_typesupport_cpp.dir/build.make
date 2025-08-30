@@ -139,7 +139,7 @@ rosidl_typesupport_cpp/h1_msgs/msg/proto_odom__type_support.cpp: /opt/ros/humble
 rosidl_typesupport_cpp/h1_msgs/msg/proto_odom__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_typesupport_cpp/h1_msgs/msg/proto_odom__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
-	/home/whaly/miniconda3/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/h1_msgs/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
 
 CMakeFiles/h1_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/h1_msgs/msg/proto_odom__type_support.cpp.o: CMakeFiles/h1_msgs__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/h1_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/h1_msgs/msg/proto_odom__type_support.cpp.o: rosidl_typesupport_cpp/h1_msgs/msg/proto_odom__type_support.cpp

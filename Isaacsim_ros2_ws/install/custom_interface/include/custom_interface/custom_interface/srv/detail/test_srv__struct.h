@@ -1,1 +1,60 @@
-/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/rosidl_generator_c/custom_interface/srv/detail/test_srv__struct.h
+// generated from rosidl_generator_c/resource/idl__struct.h.em
+// with input from custom_interface:srv/TestSrv.idl
+// generated code does not contain a copyright notice
+
+#ifndef CUSTOM_INTERFACE__SRV__DETAIL__TEST_SRV__STRUCT_H_
+#define CUSTOM_INTERFACE__SRV__DETAIL__TEST_SRV__STRUCT_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+
+
+// Constants defined in the message
+
+/// Struct defined in srv/TestSrv in the package custom_interface.
+typedef struct custom_interface__srv__TestSrv_Request
+{
+  int64_t a;
+  int64_t b;
+} custom_interface__srv__TestSrv_Request;
+
+// Struct for a sequence of custom_interface__srv__TestSrv_Request.
+typedef struct custom_interface__srv__TestSrv_Request__Sequence
+{
+  custom_interface__srv__TestSrv_Request * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} custom_interface__srv__TestSrv_Request__Sequence;
+
+
+// Constants defined in the message
+
+/// Struct defined in srv/TestSrv in the package custom_interface.
+typedef struct custom_interface__srv__TestSrv_Response
+{
+  int64_t sum;
+} custom_interface__srv__TestSrv_Response;
+
+// Struct for a sequence of custom_interface__srv__TestSrv_Response.
+typedef struct custom_interface__srv__TestSrv_Response__Sequence
+{
+  custom_interface__srv__TestSrv_Response * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} custom_interface__srv__TestSrv_Response__Sequence;
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // CUSTOM_INTERFACE__SRV__DETAIL__TEST_SRV__STRUCT_H_

@@ -1,1 +1,4 @@
-/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/custom_interface/srv/TestSrv.srv
+int64 a
+int64 b
+---
+int64 sum

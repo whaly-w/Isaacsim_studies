@@ -1,0 +1,69 @@
+running egg_info
+creating ../../build/test_pkg/test_pkg.egg-info
+writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt
+writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt
+writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build
+creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib
+creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+copying test_pkg/turtlesim_draw_action_server.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+copying test_pkg/test_action_client.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+copying test_pkg/test_subPub.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+copying test_pkg/__init__.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+copying test_pkg/test_publisher.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+copying test_pkg/test_msg.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+copying test_pkg/test_service_client.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+copying test_pkg/test_service_server.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+copying test_pkg/test_subscriber.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+copying test_pkg/test_action_server.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg
+running install
+running install_lib
+creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/turtlesim_draw_action_server.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/test_action_client.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/test_subPub.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/__init__.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/test_publisher.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/test_msg.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/test_service_client.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/test_service_server.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/test_subscriber.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+copying /home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/build/lib/test_pkg/test_action_server.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg
+byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/turtlesim_draw_action_server.py to turtlesim_draw_action_server.cpython-310.pyc
+byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/test_action_client.py to test_action_client.cpython-310.pyc
+byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/test_subPub.py to test_subPub.cpython-310.pyc
+byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/test_publisher.py to test_publisher.cpython-310.pyc
+byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/test_msg.py to test_msg.cpython-310.pyc
+byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/test_service_client.py to test_service_client.cpython-310.pyc
+byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/test_service_server.py to test_service_server.cpython-310.pyc
+byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/test_subscriber.py to test_subscriber.cpython-310.pyc
+byte-compiling /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg/test_action_server.py to test_action_server.cpython-310.pyc
+running install_data
+creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/ament_index
+creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/ament_index/resource_index
+creating /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/ament_index/resource_index/packages
+copying resource/test_pkg -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/test_pkg
+copying launch/bringup_launch.py -> /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/share/test_pkg
+running install_egg_info
+Copying ../../build/test_pkg/test_pkg.egg-info to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing action_client script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+Installing action_server script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+Installing generic_listener script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+Installing listener script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+Installing msg_talker script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+Installing service_client script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+Installing service_server script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+Installing subPub script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+Installing talker script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+Installing turtlesim_draw_server script to /home/whaly/isaac_ws/Isaacsim_ros2_ws/install/test_pkg/lib/test_pkg
+writing list of installed files to '/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/test_pkg/install.log'

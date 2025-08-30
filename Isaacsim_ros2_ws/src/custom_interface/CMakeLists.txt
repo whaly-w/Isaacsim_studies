@@ -16,6 +16,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TestMsg.msg"
   "srv/TestSrv.srv"
   "srv/TestSrvEmptyInput.srv"
+  "action/TestAction.action"
+  "action/TurtleDrawAction.action"
   DEPENDENCIES geometry_msgs
 )
 

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/whaly/isaac_ws/Isaacsim_ros2_ws/build/custom_interface/rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "custom_interface__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.13/site-packages/custom_interface")

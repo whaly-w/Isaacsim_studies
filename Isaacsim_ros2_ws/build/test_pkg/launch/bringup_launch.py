@@ -1,1 +1,0 @@
-/home/whaly/isaac_ws/Isaacsim_ros2_ws/src/test_pkg/launch/bringup_launch.py

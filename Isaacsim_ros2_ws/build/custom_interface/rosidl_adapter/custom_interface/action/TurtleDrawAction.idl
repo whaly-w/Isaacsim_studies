@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interface/action/TurtleDrawAction.action
+// generated code does not contain a copyright notice
+
+
+module custom_interface {
+  module action {
+    struct TurtleDrawAction_Goal {
+      int32 size;
+    };
+    struct TurtleDrawAction_Result {
+      int32 state;
+    };
+    struct TurtleDrawAction_Feedback {
+      boolean is_success;
+    };
+  };
+};

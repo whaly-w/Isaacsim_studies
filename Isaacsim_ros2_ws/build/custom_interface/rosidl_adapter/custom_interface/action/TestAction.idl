@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interface/action/TestAction.action
+// generated code does not contain a copyright notice
+
+
+module custom_interface {
+  module action {
+    struct TestAction_Goal {
+      int32 order;
+    };
+    struct TestAction_Result {
+      sequence<int32> sequence;
+    };
+    struct TestAction_Feedback {
+      sequence<int32> partial_sequence;
+    };
+  };
+};
